@@ -17,7 +17,6 @@ package internal
 
 import (
 	"fmt"
-	"log"
 	"os"
 
 	"github.com/beevik/etree"

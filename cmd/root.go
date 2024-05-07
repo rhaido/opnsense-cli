@@ -54,7 +54,6 @@ func init() {
 	cobra.OnInitialize(func() {
 		configfile = "/conf/config.xml"
 		stagingfile = "/conf/staging.xml"
-		fmt.Println("outfile: ", outfile)
 		internal.SetFlags(verbose, force, host, outfile, configfile, nocolor, depth, xmlFlag, yamlFlag, jsonFlag)
 		//other initializations
 	})
